@@ -16,7 +16,7 @@ body{
 .card{
     height: 750px;
     width: 500px;
-    border: 1px solid lightcoral;
+    border: none;
     border-radius: 10px;
     background-color: white;
 }
