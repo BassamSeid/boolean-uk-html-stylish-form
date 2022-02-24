@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.card{
+    height: 700px;
+    width: 500px;
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+}
+
+.one-column-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.center-wrapper{
+    max-width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
